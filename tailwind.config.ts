@@ -17,4 +17,22 @@ const config: Config = {
   },
   plugins: [],
 }
+
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./src/**/*.{html,js,ts,jsx,tsx}", // apni file paths add karein
+  ],
+  theme: {
+    extend: {
+      colors: {
+        customGray: "#f5f5f7",
+        customGray1: "#000000B8",
+        customGray2: "#F5F5F7CC", // yahan apna color add karein
+      },
+    },
+  },
+  plugins: [],
+};
+
 export default config
