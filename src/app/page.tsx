@@ -11,13 +11,13 @@ import m3 from '../../public/iphone/3.jpg'
 import Link from 'next/link'
 export default function Home() {
   return (
-    //  <div>
-    //   <Link href={'./saylaniform'}><h1>Saylani Form</h1></Link>
-    //   <Link href={'./mainpage'}><h1>Signup Page</h1></Link>
-    //   <Link href={'./practice'}><h1>Regisration Page</h1></Link>
-    //   <Link href={'./iphone'}><h1>Iphone</h1></Link>
+     <div>
+      <Link href={'./saylaniform'}><h1>Saylani Form</h1></Link>
+      <Link href={'./mainpage'}><h1>Signup Page</h1></Link>
+      <Link href={'./practice'}><h1>Regisration Page</h1></Link>
+      <Link href={'./iphone'}><h1>Iphone</h1></Link>
 
-    //  </div>
+      </div>
 
     <div>
 
